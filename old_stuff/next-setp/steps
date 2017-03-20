@@ -1,0 +1,3 @@
+brute force 6 digit pass key: 141525
+openssl rsa -in HackIM.key -out out.key -passin pass:141525
+openssl rsautl -decrypt -in message.new -out plaintext -inkey out.key

